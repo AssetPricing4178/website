@@ -1,14 +1,71 @@
-p {
-  margin-top: 0;
-  margin-bottom: 0;
+ <style>.RichTextBody ol ol {
+    list-style: lower-alpha;
+}</style>
+<style>.Form .EmailInput {
+    margin-bottom: 13.33333333px;
 }
 
-body {
-  /* This style below will be inherited */
-  font-family: Roboto, Arial;
-  margin: 0;
-  padding-top: 80px;
-  padding-left: 96px;
-  padding-right: 24px;
-  background-color: rgb(248, 248, 248);
+.NewsletterFormModal .Form-header,
+.NewsletterFormModal .Form-description {
+    font-family: Mercury Display A,Mercury Display B,Times New Roman,Times,serif;
+    margin-bottom: 10px;
+	text-align: center;
 }
+
+.NewsletterFormModal .Form-header {
+    font-size: 24px;
+}
+
+.NewsletterFormModal .TextInput label span,
+.NewsletterFormModal .EmailInput label span {
+    display: none;
+}
+
+.EmailInput input {
+    background-color: var(--secondaryColor4);
+    border: 0;
+    border-radius: 0;
+    color: var(--primaryTextColor);
+    font-family: Whitney A,Whitney B,Arial,Helvetica,sans-serif;
+	font-size: var(--label-4);
+    font-weight: 500;
+    height: 40px;
+    line-height: normal;
+    width: 100%;
+}
+
+.NewsletterFormModal .TextInput input,
+.NewsletterFormModal .EmailInput input {
+    background: transparent;
+    border-bottom: 1px solid var(--secondaryColor1);
+    padding: 6px 10px 4px 0;
+}
+
+.NewsletterFormModal .Form {
+	margin: auto;
+    width: 72%;
+}
+
+.NewsletterFormModal .Form-items {
+	margin-bottom: 20px;
+}
+
+.NewsletterFormModal .Form-items-item:nth-child(n + 3) {
+	display: none;
+}
+
+.NewsletterFormModal .Form-description {
+	font-size: 18px;
+}
+
+.NewsletterFormModal .Form .Button[type="submit"] {
+	background-color: var(--buttonBgColor);
+	margin: auto;
+	padding: 0 1.7em;
+    width: auto;
+}
+</style>
+<style>.PromoD-media img {
+    aspect-ratio: unset;
+    object-fit: unset;
+}</style>
